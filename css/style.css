@@ -1,0 +1,4087 @@
+@charset "UTF-8";
+/* ===========reset=========== */
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+:root {
+  font-size: 16px;
+}
+
+* {
+  font-family: "SCoreDream";
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+[class*=inner] {
+  width: 1280px;
+  margin: auto;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #393939;
+  background: url(../img/mainBG_texture.png), url(../img/mainBG_Gradient.png) no-repeat;
+  background-blend-mode: luminosity;
+}
+body::-webkit-scrollbar {
+  width: 18px;
+  height: 724px;
+}
+body::-webkit-scrollbar-thumb {
+  height: 10%;
+  background: #6b8bdf;
+  border-radius: 15px;
+  box-shadow: inset 0 0 15px #405a9c, inset 0 0 20px #6e97ff, 0 3px 5px #1b2d5c;
+  cursor: grabbing;
+}
+body::-webkit-scrollbar-track {
+  background: #d7e6f0;
+  box-shadow: inset 0 0 5px #6388a0;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.header {
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header .headerWrap {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerWrap .logo {
+  width: 95px;
+}
+.header .headerWrap .nav {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerWrap .nav .navContents {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.header .headerWrap .nav .navContents li {
+  width: fit-content;
+}
+.header .headerWrap .nav .navContents li a {
+  font-family: "Inika";
+  font-size: 1.875rem;
+  display: block;
+  color: #030089;
+  transition: 0.2s;
+}
+.header .headerWrap .nav .navContents li a:hover {
+  color: #7649bb;
+}
+.header .headerWrap .nav .navContents li a.active {
+  position: relative;
+}
+.header .headerWrap .nav .navContents li a.active::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background: url(../img/navLight.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -0.5rem;
+  right: -1rem;
+}
+.header .headerWrap .nav .navContents li a.active::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: url(../img/navLine.svg) no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -0.8rem;
+  left: 0;
+}
+.header .headerWrap .nav .shortCuts {
+  width: 18%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerWrap .nav .shortCuts .goToGitHub {
+  width: fit-content;
+  height: inherit;
+  position: relative;
+}
+.header .headerWrap .nav .shortCuts .goToGitHub:hover {
+  transition: 0.2s;
+}
+.header .headerWrap .nav .shortCuts .goToGitHub:hover::after {
+  content: "github 바로가기🎈";
+  width: 100px;
+  padding: 0.3rem;
+  font-size: 0.7rem;
+  text-align: center;
+  color: #000000;
+  background: #d1ecff;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 5px #56a8d6;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header .headerWrap .nav .shortCuts .goToGitHub svg {
+  height: inherit;
+  transition: 0.2s;
+}
+.header .headerWrap .nav .shortCuts .goToGitHub svg:hover {
+  transform: scale(1.05);
+}
+.header .headerWrap .nav .shortCuts .copyBtn {
+  width: fit-content;
+  height: inherit;
+  padding: 0;
+  border: none;
+  background: none;
+  position: relative;
+}
+.header .headerWrap .nav .shortCuts .copyBtn:hover {
+  transition: 0.2s;
+}
+.header .headerWrap .nav .shortCuts .copyBtn:hover::after {
+  content: "메일주소 복사📥";
+  width: 95px;
+  padding: 0.3rem;
+  font-size: 0.7rem;
+  text-align: center;
+  background: #d1ecff;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 5px #56a8d6;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header .headerWrap .nav .shortCuts .copyBtn svg {
+  height: inherit;
+  transition: 0.2s;
+}
+.header .headerWrap .nav .shortCuts .copyBtn svg:hover {
+  transform: scale(1.05);
+}
+.header .headerWrap .nav .shortCuts .adress {
+  display: none;
+}
+.header.active .headerWrap .logo svg path {
+  fill: #56a8d6;
+}
+.header.active .headerWrap .nav .navContents li a {
+  color: #56a8d6;
+}
+.header.active .headerWrap .nav .shortCuts .goToGitHub svg path {
+  fill: #56a8d6;
+}
+.header.active .headerWrap .nav .shortCuts .copyBtn {
+  width: fit-content;
+  height: inherit;
+  padding: 0;
+  border: none;
+  background: none;
+  position: relative;
+}
+.header.active .headerWrap .nav .shortCuts .copyBtn svg path {
+  fill: #56a8d6;
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+#loading {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/mainBG_texture.png), url(../img/mainBG_Gradient.png) no-repeat;
+  background-blend-mode: luminosity;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+#loading h2 {
+  width: fit-content;
+  font-family: "Inika";
+  font-size: 3.125rem;
+  color: #030089;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: loading 0.5s infinite;
+}
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/mainBG_texture.png), url(../img/mainBG_Gradient.png) no-repeat;
+  background-blend-mode: luminosity;
+  background-size: cover;
+}
+.main .main_inner {
+  height: inherit;
+  position: relative;
+}
+.main .main_inner .contentWrap {
+  width: fit-content;
+  margin: auto;
+  color: #030089;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .main_inner .contentWrap .typingAnimation {
+  width: fit-content;
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+  border: 3px solid #030089;
+}
+.main .main_inner .contentWrap .typingAnimation h3 {
+  font-family: "Inika";
+  font-size: 2.188rem;
+  font-weight: 400;
+}
+.main .main_inner .contentWrap .titleWrap {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 0.625rem;
+}
+.main .main_inner .contentWrap .titleWrap .portfo {
+  width: 510px;
+}
+.main .main_inner .contentWrap .titleWrap .mainAnimation {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 0.625rem;
+  position: relative;
+}
+.main .main_inner .contentWrap .titleWrap .mainAnimation .light {
+  width: 45px;
+  position: absolute;
+  top: -3rem;
+  left: 0;
+}
+.main .main_inner .contentWrap .titleWrap .oWrap {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.main .main_inner .contentWrap .myName {
+  padding-top: 1rem;
+  padding-right: 5.5rem;
+  font-family: "Inika";
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: right;
+}
+.main .main_inner .contentWrap .myName span {
+  font-family: "Inika";
+}
+.main .main_inner .scrollGuidance_wrap {
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  bottom: 3.5rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+.main .main_inner .scrollGuidance_wrap .scrollGuidance {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+.main .main_inner .scrollGuidance_wrap .scrollGuidance .oval {
+  width: inherit;
+  height: inherit;
+}
+.main .main_inner .scrollGuidance_wrap .scrollGuidance .circle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main.active .main_inner .contentWrap .titleWrap .mainAnimation .light {
+  animation: fallToWave 2s linear forwards;
+}
+@keyframes fallToWave {
+  0% {
+    top: -3rem;
+    left: 0;
+    rotate: 0deg;
+  }
+  25% {
+    top: 3rem;
+    left: 4rem;
+    rotate: 90deg;
+  }
+  50% {
+    top: 0rem;
+    left: 8rem;
+    rotate: 180deg;
+  }
+  75% {
+    top: 6.5rem;
+    left: 12rem;
+    rotate: 270deg;
+  }
+  100% {
+    top: 5rem;
+    left: 9rem;
+    rotate: 360deg;
+  }
+}
+.main.active .main_inner .contentWrap .titleWrap .mainAnimation .wave {
+  animation: mainWave 2.5s linear;
+}
+@keyframes mainWave {
+  0% {
+    transform: scaleY(1);
+  }
+  10% {
+    transform: scaleY(0.8);
+  }
+  20% {
+    transform: scaleY(0.6);
+  }
+  30% {
+    transform: scaleY(0.8);
+  }
+  40% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.8);
+  }
+  60% {
+    transform: scaleY(0.6);
+  }
+  70% {
+    transform: scaleY(0.8);
+  }
+  80% {
+    transform: scaleY(0.1);
+  }
+  90% {
+    transform: scaleY(0.8);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.main.active .main_inner .contentWrap .titleWrap .oWrap .oLine {
+  animation: oLine 2.5s ease;
+}
+@keyframes oLine {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.5rem);
+  }
+  50% {
+    transform: translateY(-0.2rem);
+  }
+  75% {
+    transform: translateY(0.7rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.main.active .main_inner .scrollGuidance_wrap .scrollGuidance .circle {
+  animation: moveCircle 2s 10 ease;
+}
+@keyframes moveCircle {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 2rem);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+.main.active .main_inner .scrollGuidance_wrap .scrollGuidance .circle circle {
+  animation: colorChange 2s 2 linear;
+}
+@keyframes colorChange {
+  0% {
+    fill: #5a6ccb;
+  }
+  50% {
+    fill: #5e95e7;
+  }
+  100% {
+    fill: #5a6ccb;
+  }
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.about {
+  width: 100%;
+  height: 110vh;
+  background: url(../img/sizzlingBG.png), radial-gradient(farthest-corner at 250px 30px, #d6e6ef 0%, #badbfa 60%, #bfd3f2 100%);
+  background-blend-mode: color-burn;
+  background-size: cover;
+  position: relative;
+}
+.about .about_inner {
+  padding: 11.5rem 2.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.about .about_inner .about_left {
+  width: 570px;
+}
+.about .about_inner .about_left .introduceMe {
+  width: inherit;
+}
+.about .about_inner .about_left .introduceMe .greet {
+  width: inherit;
+}
+.about .about_inner .about_left .introduceMe .greet .hello img {
+  width: 242px;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .im {
+  width: 137px;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .im img {
+  width: 137px;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin {
+  width: 325px;
+  display: flex;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_d {
+  width: 90px;
+  mix-blend-mode: difference;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_a {
+  width: 61px;
+  margin-top: 1.5rem;
+  mix-blend-mode: difference;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_b {
+  width: 69px;
+  margin-left: -0.5rem;
+  mix-blend-mode: difference;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_i {
+  width: 40px;
+  margin-bottom: 1rem;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_n {
+  width: 67px;
+  margin-top: 2rem;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .exclamationMark {
+  width: 15px;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .exclamationMark img {
+  width: 15px;
+}
+.about .about_inner .about_left .introduceMe .introDesc {
+  margin-top: 2rem;
+  font-size: #563d7c;
+  color: #2f3d63;
+  line-height: 1.5;
+}
+.about .about_inner .about_left .introduceMe .introDesc span {
+  font-weight: 500;
+}
+.about .about_inner .about_left .interests {
+  width: 320px;
+  margin-top: 4.5rem;
+}
+.about .about_inner .about_left .interests .interests_title {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.about .about_inner .about_left .interests .interests_title .interests_text {
+  width: 160px;
+}
+.about .about_inner .about_left .interests .interests_title .interests_wave {
+  width: 150px;
+}
+.about .about_inner .about_left .interests .interests_con {
+  width: inherit;
+  margin-top: 2rem;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox {
+  position: relative;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox button {
+  height: 35px;
+  border-radius: 35px;
+  border: 2px solid #2f3d63;
+  background: transparent;
+  transition: 0.2s;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox button:hover {
+  background: #d1ecff;
+  box-shadow: inset 0 0 10px #4279b0;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .line {
+  display: none;
+  position: absolute;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .viewImg {
+  display: none;
+  position: absolute;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .viewImg .imgBox {
+  width: 100px;
+  height: 70px;
+  position: relative;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .viewImg .imgBox img {
+  width: inherit;
+  height: inherit;
+  border: 3px solid #2f3d63;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .viewImg .imgBox .close {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background: url(../img/closeBtn.svg);
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .travel {
+  width: 75px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .travel .line {
+  width: 50px;
+  height: 10px;
+  border-right: 2px dotted #2f3d63;
+  border-bottom: 2px dotted #2f3d63;
+  top: 100%;
+  right: 50%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .travel .viewImg {
+  top: 0;
+  right: 150%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .exhibition {
+  width: 110px;
+  position: relative;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .exhibition .line {
+  width: 20px;
+  height: 80px;
+  border-left: 2px dotted #2f3d63;
+  border-top: 2px dotted #2f3d63;
+  bottom: 100%;
+  right: 5%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .exhibition .viewImg {
+  bottom: 250%;
+  left: 85%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .exhibition::after {
+  content: "";
+  width: 72px;
+  height: 32px;
+  background: url(../img/aboutClick.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -20px;
+  left: 100px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .lego {
+  width: 100px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .lego .line {
+  width: 40px;
+  height: 15px;
+  border-left: 2px dotted #2f3d63;
+  border-top: 2px dotted #2f3d63;
+  bottom: 100%;
+  left: 80%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .lego .viewImg {
+  top: -100%;
+  left: 120%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .restaurant,
+.about .about_inner .about_left .interests .interests_con .contents_bottom .handmade,
+.about .about_inner .about_left .interests .interests_con .contents_bottom .goodsCollection {
+  width: 100px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .restaurant .line {
+  width: 20px;
+  height: 30px;
+  border-right: 2px dotted #2f3d63;
+  border-bottom: 2px dotted #2f3d63;
+  top: 100%;
+  right: 10%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .restaurant .viewImg {
+  top: 120%;
+  right: 30%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .handmade .line {
+  width: 40px;
+  height: 30px;
+  border-right: 2px dotted #2f3d63;
+  top: 100%;
+  right: 50%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .handmade .viewImg {
+  top: 190%;
+  left: 0%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .goodsCollection .line {
+  width: 40px;
+  height: 10px;
+  border-right: 2px dotted #2f3d63;
+  top: 100%;
+  right: 50%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .goodsCollection .viewImg {
+  top: 130%;
+  left: 20%;
+}
+.about .about_inner .about_right {
+  width: 330px;
+}
+.about .about_inner .about_right .myProfile {
+  width: 328px;
+  height: 422px;
+  position: relative;
+  border: 1px solid transparent;
+}
+.about .about_inner .about_right .myProfile .profileDesc {
+  width: 80%;
+  height: 80%;
+  margin: 10% auto;
+  padding: 5%;
+  box-sizing: border-box;
+  background: url(../img/myProfilePic.JPG);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 50px -20px 0 #a2c1d9;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+.about .about_inner .about_right .myProfile .profileDesc:hover {
+  background: #030089;
+}
+.about .about_inner .about_right .myProfile .profileDesc:hover .title {
+  display: block;
+}
+.about .about_inner .about_right .myProfile .profileDesc:hover .detailDesc {
+  display: block;
+}
+.about .about_inner .about_right .myProfile .profileDesc::after {
+  content: "";
+  width: 65px;
+  height: 90px;
+  background: url(../img/hoverInduction.svg);
+  background-size: cover;
+  position: absolute;
+  top: 90%;
+  right: 5%;
+}
+.about .about_inner .about_right .myProfile .profileDesc .title {
+  display: none;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2062af;
+  font-size: 1.25rem;
+  font-family: "Inika";
+  text-align: center;
+}
+.about .about_inner .about_right .myProfile .profileDesc .detailDesc {
+  display: none;
+  padding-top: 1rem;
+  line-height: 1.5;
+}
+.about .about_inner .about_right .myProfile .profileDesc .detailDesc a {
+  font-size: 0.875rem;
+  color: #a2c1d9;
+}
+.about .about_inner .about_right .myProfile .profileDesc .detailDesc a:hover {
+  text-decoration: underline;
+  color: #fff598;
+}
+.about .about_inner .about_right .myProfile::before {
+  content: "";
+  width: 100px;
+  height: 150px;
+  border-bottom: 5px solid #030089;
+  border-left: 5px solid #030089;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.about .about_inner .about_right .myProfile::after {
+  content: "";
+  width: 100px;
+  height: 150px;
+  border-top: 5px solid #030089;
+  border-right: 5px solid #030089;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.about .about_inner .about_right .contactAnimation {
+  color: #030089;
+  position: relative;
+  margin-top: 3rem;
+  margin-left: -3rem;
+}
+.about .about_inner .about_right .contactAnimation.flyAni {
+  animation: fly 5s linear;
+}
+@keyframes fly {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(20px, 30px);
+  }
+  50% {
+    transform: translate(-100px, -20px);
+  }
+  75% {
+    transform: translate(70px, -40px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.about .about_inner .about_right .contactAnimation .flyLetter {
+  width: 130px;
+  cursor: grabbing;
+}
+.about .about_inner .about_right .contactAnimation .catch {
+  width: fit-content;
+  font-size: 0.875rem;
+  font-family: "Inika";
+  rotate: -15deg;
+  position: absolute;
+  top: 2.2rem;
+  left: 1.6rem;
+}
+.about .about_inner .about_right .contactAnimation .letter_bubble {
+  width: 237px;
+  height: 78px;
+  background-image: url(../img/sketch_bubble.png);
+  background-size: cover;
+  position: absolute;
+  top: 3.2rem;
+  left: 5rem;
+}
+.about .about_inner .about_right .contactAnimation .letter_bubble h5 {
+  padding-top: 2.3rem;
+  padding-left: 4.6rem;
+  font-size: 1.25rem;
+  font-family: "Inika";
+  letter-spacing: -0.05rem;
+  rotate: -4deg;
+}
+.about .about_inner .about_right .contactAnimation .contacts {
+  display: none;
+  width: 395px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 0.5rem;
+  background: #b9dbfa;
+  box-shadow: inset 0 0 10px rgba(0, 9, 91, 0.1450980392), 0 0 4px rgba(0, 18, 114, 0.1450980392);
+  text-align: center;
+  position: relative;
+}
+.about .about_inner .about_right .contactAnimation .contacts h6 {
+  font-size: 0.875rem;
+  color: #393939;
+}
+.about .about_inner .about_right .contactAnimation .contacts h6 span {
+  font-weight: 600;
+}
+.about .about_inner .about_right .contactAnimation .contacts button {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 20px;
+  border: none;
+  background: #030089;
+  position: absolute;
+  top: -0.3rem;
+  right: -0.3rem;
+}
+.about .aboutAnimation {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -4rem;
+  overflow-x: hidden;
+  z-index: 15;
+}
+.about .aboutAnimation .cover {
+  width: 100vw;
+  height: 80px;
+  overflow-x: hidden;
+}
+.about .aboutAnimation .cover .textAnimation {
+  width: 100%;
+  padding-top: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.about .aboutAnimation .cover .textAnimation .slideImg {
+  width: 230px;
+}
+.about .aboutAnimation .cover .textAnimation.ani01 {
+  animation: slideLeft 15s linear infinite;
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2000px);
+  }
+}
+.about .aboutAnimation .cover .textAnimation.ani02 {
+  animation: slideRight 15s linear infinite;
+  transform: translateX(-2000px);
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-2000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.about .aboutAnimation .cover:nth-child(1) {
+  margin-top: 40px;
+  background: url(../img/aboutAnimationBG01.jpg) no-repeat;
+  background-size: cover;
+  transform: rotate(2deg) translateX(-10px);
+}
+.about .aboutAnimation .cover:nth-child(2) {
+  margin-top: -60px;
+  margin-bottom: 40px;
+  background: url(../img/aboutAnimationBG02.jpg) no-repeat;
+  background-size: cover;
+  transform: rotate(-2deg) translateX(-10px);
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.skill_title {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/section_titleBG.png) center/cover no-repeat;
+}
+.skill_title .skill_title_inner {
+  height: inherit;
+  position: relative;
+}
+.skill_title .skill_title_inner .skill_title_contentsWrap {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.skill_title .skill_title_inner .skill_title_contentsWrap .number_wrap {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.skill_title .skill_title_inner .skill_title_contentsWrap .number_wrap .number {
+  width: 110px;
+  margin: auto;
+  animation: numAni 2s infinite linear;
+}
+@keyframes numAni {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.skill_title .skill_title_inner .skill_title_contentsWrap .number_wrap .title_wave {
+  width: 150px;
+  margin-top: 2rem;
+  margin-bottom: 4.5rem;
+}
+.skill_title .skill_title_inner .skill_title_contentsWrap .skill_title_text {
+  width: fit-content;
+}
+.skill_title .skill_title_inner .skill_title_contentsWrap .skill_title_text .title_animation.title_ani_active {
+  animation: titleFill 2s linear forwards;
+}
+@keyframes titleFill {
+  0% {
+    r: 100px;
+  }
+  20% {
+    r: 200px;
+  }
+  40% {
+    r: 300px;
+  }
+  60% {
+    r: 400px;
+  }
+  80% {
+    r: 500px;
+  }
+  100% {
+    r: 600px;
+  }
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.skill {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png), radial-gradient(farthest-corner at 250px 30px, #d6e6ef 0%, #badbfa 60%, #bfd3f2 100%);
+  background-blend-mode: color-burn;
+  background-size: cover;
+}
+.skill .skill_inner {
+  height: inherit;
+  overflow: hidden;
+}
+.skill .skill_inner .skillBox {
+  width: 100%;
+  height: 865px;
+  margin-top: 13.75rem;
+  border-radius: 5rem;
+  background: #030089;
+  position: relative;
+}
+.skill .skill_inner .skillBox .skillTab {
+  height: 145px;
+  padding-left: 2.45rem;
+  display: flex;
+  align-items: end;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle {
+  width: 330px;
+  height: 100px;
+  background: #c1c1c1;
+  border-radius: 3.125rem 3.125rem 0 0;
+  border: none;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle.active {
+  background: #ffffff;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle.active h5 {
+  color: #030089;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle.active h4 {
+  color: #030089;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle h5 {
+  color: #393939;
+  font-family: "IM Fell Great Primer";
+  font-size: 1.25rem;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle h4 {
+  margin-top: 0.5rem;
+  color: #393939;
+  font-family: "IM Fell Great Primer";
+  font-size: 1.563rem;
+}
+.skill .skill_inner .skillBox .skillCon {
+  height: 720px;
+  background: #ffffff;
+}
+.skill .skill_inner .skillBox .skillCon .front {
+  display: flex;
+  align-items: center;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap {
+  width: 50%;
+  margin: 6rem auto;
+  padding: 0 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 4rem;
+  border-right: 2px solid #d9d9d9;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn {
+  cursor: pointer;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn svg {
+  height: 80px;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .htmlSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .htmlSVG path {
+  fill: #ff5722;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .cssSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .cssSVG path {
+  fill: #2062af;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .jsSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .jsSVG path {
+  fill: #f1bf22;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .scssSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .scssSVG path {
+  fill: #cd6799;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .reactSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .reactSVG path {
+  fill: #61dafb;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .bootStrapSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .bootStrapSVG path {
+  fill: #563d7c;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .gitHubSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .gitHubSVG path {
+  fill: #414751;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .gitSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .gitSVG path {
+  fill: #ea3a17;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .netlifySVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .netlifySVG path {
+  fill: #25c7b7;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea {
+  width: 50%;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap {
+  display: none;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 1rem;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap.active {
+  display: flex;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap img {
+  width: 100px;
+  height: 100px;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap .skillDesc {
+  width: 458px;
+  height: 310px;
+  margin-top: 2rem;
+  padding-left: 3rem;
+  background: url(../img/skillDesc_bubble.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap .skillDesc h5 {
+  width: 300px;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #2f3d63;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap .skillDesc h5 span {
+  font-weight: 600;
+}
+.skill .skill_inner .skillBox .skillCon .edit {
+  display: none;
+  flex-direction: column;
+}
+.skill .skill_inner .skillBox .skillCon .edit.active {
+  display: flex;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap {
+  width: 80%;
+  margin: 4rem auto 3rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  border-bottom: 2px solid #d9d9d9;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn {
+  width: fit-content;
+  cursor: pointer;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn svg {
+  height: 80px;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .aiSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .aiSVG path {
+  fill: #ff9a00;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .psSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .psSVG path {
+  fill: #31a8ff;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .idSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .idSVG path {
+  fill: #ff3366;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .figmaSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .figmaSVG path {
+  fill: url(#figma);
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .slackSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .slackSVG path {
+  fill: url(#slack);
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea {
+  width: 80%;
+  margin: auto;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap {
+  display: none;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 1rem;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap.active {
+  display: flex;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap img {
+  width: 100px;
+  height: 100px;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap .skillDesc {
+  width: 880px;
+  height: 280px;
+  padding-left: 4rem;
+  background: url(../img/skillDesc_bubble2.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap .skillDesc h5 {
+  width: 700px;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #2f3d63;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap .skillDesc h5 span {
+  font-weight: 600;
+}
+.skill .skill_inner .skillBox .circleBox {
+  width: 110px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 40px;
+  right: 70px;
+}
+.skill .skill_inner .skillBox .circleBox .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 35px;
+}
+.skill .skill_inner .skillBox .circleBox .circle.red {
+  background: #fe604c;
+}
+.skill .skill_inner .skillBox .circleBox .circle.yellow {
+  background: #f9bf02;
+}
+.skill .skill_inner .skillBox .circleBox .circle.green {
+  background: #14d838;
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.mainPJ_title {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/section_titleBG.png) center/cover no-repeat;
+}
+.mainPJ_title .mainPJ_title_inner {
+  height: inherit;
+  position: relative;
+}
+.mainPJ_title .mainPJ_title_inner .mainPJ_title_contentsWrap {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mainPJ_title .mainPJ_title_inner .mainPJ_title_contentsWrap .number_wrap {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.mainPJ_title .mainPJ_title_inner .mainPJ_title_contentsWrap .number_wrap .number {
+  width: 110px;
+  margin: auto;
+  animation: numAni 2s infinite linear;
+}
+@keyframes numAni {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.mainPJ_title .mainPJ_title_inner .mainPJ_title_contentsWrap .number_wrap .title_wave {
+  width: 150px;
+  margin-top: 2rem;
+  margin-bottom: 4.5rem;
+}
+.mainPJ_title .mainPJ_title_inner .mainPJ_title_contentsWrap .main_title_text {
+  width: fit-content;
+}
+.mainPJ_title .mainPJ_title_inner .mainPJ_title_contentsWrap .main_title_text .title_animation.title_ani_active {
+  animation: titleFill2 2s linear forwards;
+}
+@keyframes titleFill2 {
+  0% {
+    r: 100px;
+  }
+  25% {
+    r: 250px;
+  }
+  50% {
+    r: 400px;
+  }
+  75% {
+    r: 550px;
+  }
+  100% {
+    r: 700px;
+  }
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.mainPJ {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png), radial-gradient(farthest-corner at 250px 30px, #d6e6ef 0%, #badbfa 60%, #bfd3f2 100%);
+  background-blend-mode: color-burn;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner {
+  height: inherit;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper {
+  height: inherit;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide {
+  height: 610px;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc {
+  width: 390px;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .title_en {
+  font-size: 1.563rem;
+  font-family: "Inika";
+  color: #ffffff;
+  letter-spacing: -0.03rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .title_ko {
+  margin-top: 1rem;
+  font-size: 3.125rem;
+  font-weight: 600;
+  color: #030089;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_text {
+  margin: 2rem 0;
+  line-height: 1.4;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pjBtn_wrap {
+  position: relative;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pjBtn_wrap a {
+  padding: 0.3rem 1rem;
+  background: #d1ecff;
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: 1px solid #000000;
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pjBtn_wrap a:hover {
+  box-shadow: inset 50px 0 0 #56a8d6, inset -50px 0 0 #56a8d6;
+  color: #ffffff;
+  border: 1px solid #00025c;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pjBtn_wrap::after {
+  content: "";
+  width: 37.5px;
+  height: 30px;
+  background: url(../img/mainPJ_click.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  animation: mainClick 3s infinite linear;
+}
+@keyframes mainClick {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary {
+  margin-top: 3rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox img {
+  width: 15px;
+  margin-right: 1rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .summaryTitle {
+  width: 65px;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .summaryDesc,
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox {
+  width: 270px;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .summaryDesc {
+  font-size: 0.875rem;
+  letter-spacing: -0.05rem;
+  line-height: 1.3;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox {
+  display: flex;
+  gap: 0.5rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p {
+  width: fit-content;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_html {
+  background: #ff8d69;
+  color: #b64927;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_css {
+  background: #7089e7;
+  color: #2543b8;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_scss {
+  background: #cd6799;
+  color: #b41563;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_js {
+  background: #ffe55b;
+  color: #e16c00;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_jquery {
+  background: #0868ac;
+  color: #002279;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_react {
+  background: #2cbee5;
+  color: #0085a9;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_redux {
+  background: #7649bb;
+  color: #290067;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox.contribution .summaryDesc {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img {
+  width: 820px;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj01 {
+  background: url(../img/mainPJ_01.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj02 {
+  background: url(../img/mainPJ_02.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj03 {
+  background: url(../img/mainPJ_05.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj04 {
+  background: url(../img/mainPJ_04.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj04 {
+  background: url(../img/mainPJ_04.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj05 {
+  background: url(../img/mainPJ_06.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj06 {
+  background: url(https://file3.instiz.net/data/cached_img/upload/2020/05/22/1/36c13317ef40831000f88c96df65611b.gif);
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide:nth-child(5) .pj_desc .title_ko {
+  letter-spacing: -0.1rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-pagination {
+  bottom: 5rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: #d1ecff;
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1882352941);
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 35px;
+  height: 15px;
+  border-radius: 1rem;
+  background: #56a8d6;
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.sidePJ_title {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/section_titleBG.png) center/cover no-repeat;
+}
+.sidePJ_title .sidePJ_title_inner {
+  height: inherit;
+  position: relative;
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .number_wrap {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .number_wrap .number {
+  width: 110px;
+  margin: auto;
+  animation: numAni 2s infinite linear;
+}
+@keyframes numAni {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .number_wrap .title_wave {
+  width: 150px;
+  margin-top: 2rem;
+  margin-bottom: 4.5rem;
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .side_title_text {
+  width: fit-content;
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .side_title_text .title_animation.title_ani_active {
+  animation: titleFill2 2s linear forwards;
+}
+@keyframes titleFill2 {
+  0% {
+    r: 100px;
+  }
+  25% {
+    r: 250px;
+  }
+  50% {
+    r: 400px;
+  }
+  75% {
+    r: 550px;
+  }
+  100% {
+    r: 700px;
+  }
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.sidePJ {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png), radial-gradient(farthest-corner at 250px 30px, #d6e6ef 0%, #badbfa 60%, #bfd3f2 100%);
+  background-blend-mode: color-burn;
+  background-size: cover;
+}
+.sidePJ .sidePJ_inner {
+  height: inherit;
+  padding-top: 7.5rem;
+}
+.sidePJ .sidePJ_inner .sidePJWrap {
+  width: inherit;
+  height: 670px;
+  display: grid;
+  gap: 2rem;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox {
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox p {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 1rem;
+  background: #00025c;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.25s;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox p:hover {
+  color: #fff598;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox .pjBtn_wrap {
+  width: fit-content;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox .pjBtn_wrap a {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background: #393939;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.875rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1450980392);
+  transition: 0.3s;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox .pjBtn_wrap a.gitHubBtn {
+  padding-top: 1rem;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox .pjBtn_wrap a.demoBtn {
+  line-height: 60px;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox .pjBtn_wrap a:hover {
+  background: #00025c;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox.box01 {
+  grid-column: 1/5;
+  grid-row: 1/4;
+  background: url(../img/sidmool_thumnail.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox.box02 {
+  grid-column: 5/11;
+  grid-row: 1/4;
+  background: url(../img/class101_thumnail.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox.box02::after {
+  content: "";
+  width: 43px;
+  height: 54px;
+  background: url(../img/sidePJ_click.svg);
+  position: absolute;
+  top: 125px;
+  right: 0px;
+  animation: sideInduction 1.5s infinite;
+}
+@keyframes sideInduction {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox.box03 {
+  grid-column: 11/14;
+  grid-row: 1/5;
+  background: url(../img/todolist_thumnail3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox.box04 {
+  grid-column: 1/7;
+  grid-row: 4/7;
+  background: url(../img/unready_thumnail.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox.box05 {
+  grid-column: 7/11;
+  grid-row: 4/7;
+  background: url(../img/weather_thumnail.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox.box06 {
+  grid-column: 11/14;
+  grid-row: 5/7;
+  background: url(../img/contact_thumnail.png) no-repeat;
+  background-size: cover;
+  background-position: -5px center;
+}
+.sidePJ .sidePJ_inner .sidePJWrap .sideBox:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3137254902);
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.editorial_title {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/section_titleBG.png) center/cover no-repeat;
+}
+.editorial_title .editorial_title_inner {
+  height: inherit;
+  position: relative;
+}
+.editorial_title .editorial_title_inner .editorial_title_contentsWrap {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.editorial_title .editorial_title_inner .editorial_title_contentsWrap .number_wrap {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.editorial_title .editorial_title_inner .editorial_title_contentsWrap .number_wrap .number {
+  width: 110px;
+  margin: auto;
+  animation: numAni 2s infinite linear;
+}
+@keyframes numAni {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.editorial_title .editorial_title_inner .editorial_title_contentsWrap .number_wrap .title_wave {
+  width: 150px;
+  margin-top: 2rem;
+  margin-bottom: 4.5rem;
+}
+.editorial_title .editorial_title_inner .editorial_title_contentsWrap .editorial_title_text {
+  width: fit-content;
+}
+.editorial_title .editorial_title_inner .editorial_title_contentsWrap .editorial_title_text .title_animation {
+  animation: titleFill2 2s linear forwards;
+}
+@keyframes titleFill2 {
+  0% {
+    r: 100px;
+  }
+  25% {
+    r: 250px;
+  }
+  50% {
+    r: 400px;
+  }
+  75% {
+    r: 550px;
+  }
+  100% {
+    r: 800px;
+  }
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.editorial {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png), radial-gradient(farthest-corner at 250px 30px, #d6e6ef 0%, #badbfa 60%, #bfd3f2 100%);
+  background-blend-mode: color-burn;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.editorial .editorial_inner {
+  height: inherit;
+  position: relative;
+}
+.editorial .editorial_inner .editorial_wrap {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.editorial .editorial_inner .editorial_wrap .editorial_link {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.editorial .editorial_inner .editorial_wrap .editorial_link img.text {
+  width: 295px;
+  transition: 0.3s;
+}
+.editorial .editorial_inner .editorial_wrap .editorial_link img.arrow {
+  width: 230px;
+  transition: 0.3s;
+}
+.editorial .editorial_inner .editorial_wrap .editorial_link:hover .text {
+  transform: scale(1.02);
+}
+.editorial .editorial_inner .editorial_wrap .editorial_link:hover .arrow {
+  transform: translateX(1rem);
+}
+.editorial .editorial_inner .editorial_wrap .editorial_link::after {
+  content: "";
+  width: 50px;
+  height: 51px;
+  background: url(../img/editorial_click.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 220px;
+  right: 160px;
+  transform: rotate(-20deg);
+  animation: editCursor 1.5s infinite linear;
+}
+@keyframes editCursor {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.editorial .editorial_inner .editorial_wrap::before {
+  content: "";
+  width: 600px;
+  height: 280px;
+  border-radius: 50%;
+  background: #a0cce9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transform: rotate(-20deg);
+}
+.editorial .editorial_inner .editorial_wrap::after {
+  content: "";
+  width: 600px;
+  height: 280px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5019607843);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transform: rotate(-7deg);
+}
+.editorial .editorial_ani {
+  width: 750px;
+  position: absolute;
+  top: -150px;
+  left: 500px;
+  transform: rotate(-12deg);
+}
+.editorial .editorial_ani img {
+  width: inherit;
+  mix-blend-mode: multiply;
+  opacity: 0.4;
+  animation: editorialAni 20s infinite linear;
+}
+@keyframes editorialAni {
+  0% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(-150px);
+  }
+  10% {
+    transform: translateY(-300px);
+  }
+  15% {
+    transform: translateY(-450px);
+  }
+  20% {
+    transform: translateY(-600px);
+  }
+  25% {
+    transform: translateY(-750px);
+  }
+  30% {
+    transform: translateY(-900px);
+  }
+  35% {
+    transform: translateY(-1050px);
+  }
+  40% {
+    transform: translateY(-1200px);
+  }
+  45% {
+    transform: translateY(-1350px);
+  }
+  50% {
+    transform: translateY(-1500px);
+  }
+  55% {
+    transform: translateY(-1650px);
+  }
+  60% {
+    transform: translateY(-1800px);
+  }
+  65% {
+    transform: translateY(-1950px);
+  }
+  70% {
+    transform: translateY(-2100px);
+  }
+  75% {
+    transform: translateY(-2250px);
+  }
+  80% {
+    transform: translateY(-2400px);
+  }
+  85% {
+    transform: translateY(-2550px);
+  }
+  90% {
+    transform: translateY(-1800px);
+  }
+  95% {
+    transform: translateY(-800px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.edit_portfolio {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5843137255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  display: none;
+}
+.edit_portfolio .edit_popUp {
+  width: 1114px;
+  height: 744px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.edit_portfolio .edit_popUp .edit_wrap {
+  width: 1024px;
+  height: 724px;
+  margin-top: 0.65rem;
+  background: #ffffff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.edit_portfolio .edit_popUp .edit_wrap::-webkit-scrollbar {
+  width: 10px;
+  height: 724px;
+}
+.edit_portfolio .edit_popUp .edit_wrap::-webkit-scrollbar-thumb {
+  height: 15%;
+  background: #56a8d6;
+  border-radius: 5px;
+}
+.edit_portfolio .edit_popUp .edit_wrap::-webkit-scrollbar-track {
+  background: #d1ecff;
+}
+.edit_portfolio .edit_popUp .edit_wrap div {
+  width: inherit;
+  height: inherit;
+  box-sizing: border-box;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit01 {
+  background: url(../img/editFolio/edit02.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit02 {
+  background: url(../img/editFolio/edit03.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit03 {
+  background: url(../img/editFolio/edit04.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit04 {
+  background: url(../img/editFolio/edit05.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit05 {
+  background: url(../img/editFolio/edit06.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit06 {
+  background: url(../img/editFolio/edit07.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit07 {
+  background: url(../img/editFolio/edit08.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit08 {
+  background: url(../img/editFolio/edit09.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit09 {
+  background: url(../img/editFolio/edit10.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit10 {
+  background: url(../img/editFolio/edit11.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit11 {
+  background: url(../img/editFolio/edit12.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit12 {
+  background: url(../img/editFolio/edit13.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit13 {
+  background: url(../img/editFolio/edit14.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit14 {
+  background: url(../img/editFolio/edit15.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit15 {
+  background: url(../img/editFolio/edit16.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit16 {
+  background: url(../img/editFolio/edit17.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit17 {
+  background: url(../img/editFolio/edit18.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit18 {
+  background: url(../img/editFolio/edit19.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit19 {
+  background: url(../img/editFolio/edit20.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit20 {
+  background: url(../img/editFolio/edit21.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit21 {
+  background: url(../img/editFolio/edit22.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_wrap .edit22 {
+  background: url(../img/editFolio/edit23.png) no-repeat;
+  background-size: cover;
+}
+.edit_portfolio .edit_popUp .edit_close {
+  width: 70px;
+  height: 70px;
+  margin-top: -0.2rem;
+  background: url(../img/edit_closeBtn.svg) no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/introAnimationBG.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.contact .contact_inner {
+  height: inherit;
+  color: #ffffff;
+}
+.contact .contact_inner .contactWrap {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+.contact .contact_inner .contactWrap .leftText {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  z-index: 2;
+}
+.contact .contact_inner .contactWrap .leftText .thx_en {
+  font-family: "Inika";
+  font-size: 2.188rem;
+}
+.contact .contact_inner .contactWrap .leftText .thx_ko {
+  margin-top: 1.5rem;
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.contact .contact_inner .contactWrap .rightText {
+  width: 295px;
+  position: absolute;
+  bottom: 150px;
+  right: 0;
+}
+.contact .contact_inner .contactWrap .rightText .comment {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea {
+  margin-top: 2.5rem;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .contactTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .contactTitle h3 {
+  font-size: 1.875rem;
+  font-weight: 500;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .contactTitle .line {
+  width: 200px;
+  height: 2px;
+  background: #ffffff;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .contactTitle img {
+  width: 75px;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container {
+  width: 280px;
+  height: 70px;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card {
+  padding: 0.5rem;
+  position: absolute;
+  inset: 0;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card .mailArea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card .mailArea img {
+  width: 30px;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card .phoneNumberArea {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card .phoneNumberArea img {
+  width: 30px;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container canvas {
+  position: absolute;
+  cursor: grabbing;
+}
+.contact .waveLengthWrap {
+  width: 47%;
+  position: absolute;
+  top: -27vh;
+  left: -8%;
+  filter: invert(100%);
+  opacity: 0.6;
+}
+.contact .waveLengthWrap svg path {
+  opacity: 0;
+}
+@keyframes path2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(1) {
+  animation: path2 2s 5.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(2) {
+  animation: path2 2s 5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(3) {
+  animation: path2 2s 4.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(4) {
+  animation: path2 2s 4s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(5) {
+  animation: path2 2s 3.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(6) {
+  animation: path2 2s 3s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(7) {
+  animation: path2 2s 2.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(8) {
+  animation: path2 2s 2s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(9) {
+  animation: path2 2s 1.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(10) {
+  animation: path2 2s 1s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(11) {
+  animation: path2 2s 0.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(12) {
+  animation: path2 2s linear forwards;
+}
+
+/* ===========reset=========== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.topBtn {
+  display: none;
+  width: 70px;
+  height: 70px;
+  background-color: #030089;
+  transform: rotate(45deg);
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+}
+.topBtn .gotoTop {
+  width: inherit;
+  height: inherit;
+  display: block;
+  position: relative;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3137254902);
+}
+.topBtn .gotoTop::after {
+  content: "Top";
+  width: 35px;
+  height: 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  position: absolute;
+  top: 24px;
+  left: 15px;
+  transform: rotate(-45deg);
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background: #000000;
+  text-align: center;
+}
+.footer .footer_inner h5 {
+  padding-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #a2c1d9;
+}

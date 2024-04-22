@@ -1,0 +1,182 @@
+@import "reset", "font", "variable";
+
+//header
+.header {
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  .headerWrap {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      width: 95px;
+    }
+    .nav {
+      width: 48%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .navContents {
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        li {
+          width: fit-content;
+          a {
+            font-family: $secondary-font;
+            font-size: $h3;
+            display: block;
+            color: $main-blue;
+            transition: 0.2s;
+            &:hover {
+              color: $redux-btn-BG;
+            }
+            &.active {
+              position: relative;
+              &::before {
+                content: "";
+                width: 13px;
+                height: 13px;
+                background: url(../img/navLight.svg) no-repeat;
+                background-size: cover;
+                position: absolute;
+                top: -0.5rem;
+                right: -1rem;
+              }
+              &::after {
+                content: "";
+                width: 100%;
+                height: 4px;
+                background: url(../img/navLine.svg) no-repeat;
+                background-size: contain;
+                position: absolute;
+                bottom: -0.8rem;
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+      .shortCuts {
+        width: 18%;
+        height: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .goToGitHub {
+          width: fit-content;
+          height: inherit;
+          position: relative;
+          &:hover {
+            transition: 0.2s;
+            &::after {
+              content: "github 바로가기🎈";
+              width: 100px;
+              padding: 0.3rem;
+              font-size: 0.7rem;
+              text-align: center;
+              color: $black;
+              background: $pale-blue;
+              border-radius: 0.2rem;
+              box-shadow: 0 0 5px $moderate-blue;
+              position: absolute;
+              top: 50px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+          }
+          svg {
+            height: inherit;
+            transition: 0.2s;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+        .copyBtn {
+          width: fit-content;
+          height: inherit;
+          padding: 0;
+          border: none;
+          background: none;
+          position: relative;
+          &:hover {
+            transition: 0.2s;
+            &::after {
+              content: "메일주소 복사📥";
+              width: 95px;
+              padding: 0.3rem;
+              font-size: 0.7rem;
+              text-align: center;
+              background: $pale-blue;
+              border-radius: 0.2rem;
+              box-shadow: 0 0 5px $moderate-blue;
+              position: absolute;
+              top: 50px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+          }
+          svg {
+            height: inherit;
+            transition: 0.2s;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+        .adress {
+          display: none;
+        }
+      }
+    }
+  }
+  &.active {
+    .headerWrap {
+      .logo {
+        svg {
+          path {
+            fill: $moderate-blue;
+          }
+        }
+      }
+      .nav {
+        .navContents {
+          li {
+            a {
+              color: $moderate-blue;
+            }
+          }
+        }
+        .shortCuts {
+          .goToGitHub {
+            svg {
+              path {
+                fill: $moderate-blue;
+              }
+            }
+          }
+          .copyBtn {
+            width: fit-content;
+            height: inherit;
+            padding: 0;
+            border: none;
+            background: none;
+            position: relative;
+            svg {
+              path {
+                fill: $moderate-blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

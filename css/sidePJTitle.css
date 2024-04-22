@@ -1,0 +1,199 @@
+/* ===========reset=========== */
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.sidePJ_title {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/section_titleBG.png) center/cover no-repeat;
+}
+.sidePJ_title .sidePJ_title_inner {
+  height: inherit;
+  position: relative;
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .number_wrap {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .number_wrap .number {
+  width: 110px;
+  margin: auto;
+  animation: numAni 2s infinite linear;
+}
+@keyframes numAni {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .number_wrap .title_wave {
+  width: 150px;
+  margin-top: 2rem;
+  margin-bottom: 4.5rem;
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .side_title_text {
+  width: fit-content;
+}
+.sidePJ_title .sidePJ_title_inner .sidePJ_title_contentsWrap .side_title_text .title_animation.title_ani_active {
+  animation: titleFill2 2s linear forwards;
+}
+@keyframes titleFill2 {
+  0% {
+    r: 100px;
+  }
+  25% {
+    r: 250px;
+  }
+  50% {
+    r: 400px;
+  }
+  75% {
+    r: 550px;
+  }
+  100% {
+    r: 700px;
+  }
+}

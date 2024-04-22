@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>탭 만들기</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul,
+    li {
+      list-style: none;
+    }
+
+    .tab-container {
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    .tab-button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-right: 10px;
+      cursor: pointer;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .tab-button.active {
+      background-color: #45a049;
+    }
+
+    .tab {
+      display: none;
+      padding: 20px;
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      border-radius: 0 0 5px 5px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .grid-container li {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #000;
+    }
+
+    .grid-container li.active {
+      background-color: hotpink;
+    }
+
+    .left-content {
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    .tab-content {
+      display: flex;
+      align-items: center;
+    }
+
+    .tab-content>div {
+      border: 1px solid #000;
+      flex: 1;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="tab-container">
+    <button class="tab-button" onclick="openTab('tab1', event)">탭 1</button>
+    <button class="tab-button" onclick="openTab('tab2', event)">탭 2</button>
+
+    <div id="tab1" class="tab">
+      <div class="tab1-inner">
+        <h2>첫 번째 탭 내용</h2>
+        <div class="tab-content">
+          <div class="left-content">
+            <ul class="grid-container">
+              <li onclick="showAnswer(0, event)" class="tab-button">내용1</li>
+              <li onclick="showAnswer(1, event)" class="tab-button">내용2</li>
+              <li onclick="showAnswer(2, event)" class="tab-button">내용3</li>
+              <li onclick="showAnswer(3, event)" class="tab-button">내용4</li>
+            </ul>
+          </div>
+          <div class="right-content">
+            <ul id="grid-answer" class="grid-answer">
+              <li style="display: block;">내용1</li>
+              <li style="display: none;">내용2</li>
+              <li style="display: none;">내용3</li>
+              <li style="display: none;">내용4</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab2" class="tab">
+      <div class="tab2-inner">
+        <h2>두번째 탭 내용</h2>
+        <div>이것은 첫 번째 탭입니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openTab(tabId, event) {
+      // 모든 탭을 숨김
+      let tabs = document.querySelectorAll('.tab');
+      tabs.forEach(function (tab) {
+        tab.style.display = 'none';
+      });
+
+      // 모든 탭 버튼에서 active 클래스를 제거
+      let tabButtons = document.querySelectorAll('.tab-button');
+      tabButtons.forEach(function (button) {
+        button.classList.remove('active');
+      });
+
+      // 클릭된 탭을 보여주고 해당 버튼에 active 클래스를 추가
+      document.getElementById(tabId).style.display = 'block';
+      event.target.classList.add('active');
+    }
+
+    // 초기에 첫 번째 탭을 엽니다.
+    openTab('tab1', event);
+
+    function showAnswer(index, event) {
+      let gridAnswers = document.querySelectorAll('.grid-answer li');
+      let tabButton = event.target;
+      let tabButtons = document.querySelectorAll('.grid-container li');
+      gridAnswers.forEach(function (answer, i) {
+        if (i === index) {
+          answer.style.display = 'block';
+        } else {
+          answer.style.display = 'none';
+        }
+      });
+
+
+      tabButtons.forEach(function (button, i) {
+        if (i === index) {
+          button.classList.add('active');
+        } else {
+          button.classList.remove('active');
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>

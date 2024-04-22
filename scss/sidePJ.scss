@@ -1,0 +1,142 @@
+@import "reset", "font", "variable";
+.sidePJ {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png),
+    radial-gradient(
+      farthest-corner at 250px 30px,
+      #d6e6ef 0%,
+      #badbfa 60%,
+      #bfd3f2 100%
+    );
+  background-blend-mode: color-burn;
+  background-size: cover;
+  .sidePJ_inner {
+    height: inherit;
+    padding-top: 7.5rem;
+    .sidePJWrap {
+      width: inherit;
+      height: 670px;
+      display: grid;
+      gap: 2rem;
+      .sideBox {
+        position: relative;
+        cursor: pointer;
+        transition: 0.3s;
+        p {
+          width: 100%;
+          height: 45px;
+          line-height: 45px;
+          padding-left: 1rem;
+          background: $dark-blue;
+          color: $white;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transition: 0.25s;
+          &:hover {
+            color: $light-yellow;
+          }
+        }
+        .pjBtn_wrap {
+          width: fit-content;
+          position: absolute;
+          top: 0.5rem;
+          right: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          a {
+            width: 60px;
+            height: 60px;
+            border-radius: 60px;
+            background: $dark-gray;
+            color: $white;
+            text-align: center;
+            font-size: $h6;
+            box-shadow: 0 4px 4px #00000025;
+            transition: 0.3s;
+            &.gitHubBtn {
+              padding-top: 1rem;
+            }
+            &.demoBtn {
+              line-height: 60px;
+            }
+            &:hover {
+              background: $dark-blue;
+            }
+          }
+        }
+        &.box {
+          &01 {
+            grid-column: 1/5;
+            grid-row: 1/4;
+            background: url(../img/sidmool_thumnail.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+          &02 {
+            grid-column: 5/11;
+            grid-row: 1/4;
+            background: url(../img/class101_thumnail.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+            &::after {
+              content: "";
+              width: 43px;
+              height: 54px;
+              background: url(../img/sidePJ_click.svg);
+              position: absolute;
+              top: 125px;
+              right: 0px;
+              animation: sideInduction 1.5s infinite;
+              @keyframes sideInduction {
+                0% {
+                  opacity: 1;
+                }
+                50% {
+                  opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                }
+              }
+            }
+          }
+          &03 {
+            grid-column: 11/14;
+            grid-row: 1/5;
+            background: url(../img/todolist_thumnail3.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+          &04 {
+            grid-column: 1/7;
+            grid-row: 4/7;
+            background: url(../img/unready_thumnail.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+          &05 {
+            grid-column: 7/11;
+            grid-row: 4/7;
+            background: url(../img/weather_thumnail.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+          &06 {
+            grid-column: 11/14;
+            grid-row: 5/7;
+            background: url(../img/contact_thumnail.png) no-repeat;
+            background-size: cover;
+            background-position: -5px center;
+          }
+        }
+        &:hover {
+          transform: scale(1.02);
+          box-shadow: 0 0 10px #00000050;
+        }
+      }
+    }
+  }
+}

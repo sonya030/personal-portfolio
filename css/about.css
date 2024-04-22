@@ -1,0 +1,601 @@
+/* ===========reset=========== */
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.about {
+  width: 100%;
+  height: 110vh;
+  background: url(../img/sizzlingBG.png), radial-gradient(farthest-corner at 250px 30px, #d6e6ef 0%, #badbfa 60%, #bfd3f2 100%);
+  background-blend-mode: color-burn;
+  background-size: cover;
+  position: relative;
+}
+.about .about_inner {
+  padding: 11.5rem 2.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.about .about_inner .about_left {
+  width: 570px;
+}
+.about .about_inner .about_left .introduceMe {
+  width: inherit;
+}
+.about .about_inner .about_left .introduceMe .greet {
+  width: inherit;
+}
+.about .about_inner .about_left .introduceMe .greet .hello img {
+  width: 242px;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .im {
+  width: 137px;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .im img {
+  width: 137px;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin {
+  width: 325px;
+  display: flex;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_d {
+  width: 90px;
+  mix-blend-mode: difference;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_a {
+  width: 61px;
+  margin-top: 1.5rem;
+  mix-blend-mode: difference;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_b {
+  width: 69px;
+  margin-left: -0.5rem;
+  mix-blend-mode: difference;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_i {
+  width: 40px;
+  margin-bottom: 1rem;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .dabin .name_n {
+  width: 67px;
+  margin-top: 2rem;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .exclamationMark {
+  width: 15px;
+}
+.about .about_inner .about_left .introduceMe .greet .greet_bottom .exclamationMark img {
+  width: 15px;
+}
+.about .about_inner .about_left .introduceMe .introDesc {
+  margin-top: 2rem;
+  font-size: #563d7c;
+  color: #2f3d63;
+  line-height: 1.5;
+}
+.about .about_inner .about_left .introduceMe .introDesc span {
+  font-weight: 500;
+}
+.about .about_inner .about_left .interests {
+  width: 320px;
+  margin-top: 4.5rem;
+}
+.about .about_inner .about_left .interests .interests_title {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.about .about_inner .about_left .interests .interests_title .interests_text {
+  width: 160px;
+}
+.about .about_inner .about_left .interests .interests_title .interests_wave {
+  width: 150px;
+}
+.about .about_inner .about_left .interests .interests_con {
+  width: inherit;
+  margin-top: 2rem;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox {
+  position: relative;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox button {
+  height: 35px;
+  border-radius: 35px;
+  border: 2px solid #2f3d63;
+  background: transparent;
+  transition: 0.2s;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox button:hover {
+  background: #d1ecff;
+  box-shadow: inset 0 0 10px #4279b0;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .line {
+  display: none;
+  position: absolute;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .viewImg {
+  display: none;
+  position: absolute;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .viewImg .imgBox {
+  width: 100px;
+  height: 70px;
+  position: relative;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .viewImg .imgBox img {
+  width: inherit;
+  height: inherit;
+  border: 3px solid #2f3d63;
+}
+.about .about_inner .about_left .interests .interests_con .contentsWrap .contentsBox .viewImg .imgBox .close {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background: url(../img/closeBtn.svg);
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .travel {
+  width: 75px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .travel .line {
+  width: 50px;
+  height: 10px;
+  border-right: 2px dotted #2f3d63;
+  border-bottom: 2px dotted #2f3d63;
+  top: 100%;
+  right: 50%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .travel .viewImg {
+  top: 0;
+  right: 150%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .exhibition {
+  width: 110px;
+  position: relative;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .exhibition .line {
+  width: 20px;
+  height: 80px;
+  border-left: 2px dotted #2f3d63;
+  border-top: 2px dotted #2f3d63;
+  bottom: 100%;
+  right: 5%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .exhibition .viewImg {
+  bottom: 250%;
+  left: 85%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .exhibition::after {
+  content: "";
+  width: 72px;
+  height: 32px;
+  background: url(../img/aboutClick.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -20px;
+  left: 100px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .lego {
+  width: 100px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .lego .line {
+  width: 40px;
+  height: 15px;
+  border-left: 2px dotted #2f3d63;
+  border-top: 2px dotted #2f3d63;
+  bottom: 100%;
+  left: 80%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_top .lego .viewImg {
+  top: -100%;
+  left: 120%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .restaurant,
+.about .about_inner .about_left .interests .interests_con .contents_bottom .handmade,
+.about .about_inner .about_left .interests .interests_con .contents_bottom .goodsCollection {
+  width: 100px;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .restaurant .line {
+  width: 20px;
+  height: 30px;
+  border-right: 2px dotted #2f3d63;
+  border-bottom: 2px dotted #2f3d63;
+  top: 100%;
+  right: 10%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .restaurant .viewImg {
+  top: 120%;
+  right: 30%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .handmade .line {
+  width: 40px;
+  height: 30px;
+  border-right: 2px dotted #2f3d63;
+  top: 100%;
+  right: 50%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .handmade .viewImg {
+  top: 190%;
+  left: 0%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .goodsCollection .line {
+  width: 40px;
+  height: 10px;
+  border-right: 2px dotted #2f3d63;
+  top: 100%;
+  right: 50%;
+}
+.about .about_inner .about_left .interests .interests_con .contents_bottom .goodsCollection .viewImg {
+  top: 130%;
+  left: 20%;
+}
+.about .about_inner .about_right {
+  width: 330px;
+}
+.about .about_inner .about_right .myProfile {
+  width: 328px;
+  height: 422px;
+  position: relative;
+  border: 1px solid transparent;
+}
+.about .about_inner .about_right .myProfile .profileDesc {
+  width: 80%;
+  height: 80%;
+  margin: 10% auto;
+  padding: 5%;
+  box-sizing: border-box;
+  background: url(../img/myProfilePic.JPG);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 50px -20px 0 #a2c1d9;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+.about .about_inner .about_right .myProfile .profileDesc:hover {
+  background: #030089;
+}
+.about .about_inner .about_right .myProfile .profileDesc:hover .title {
+  display: block;
+}
+.about .about_inner .about_right .myProfile .profileDesc:hover .detailDesc {
+  display: block;
+}
+.about .about_inner .about_right .myProfile .profileDesc::after {
+  content: "";
+  width: 65px;
+  height: 90px;
+  background: url(../img/hoverInduction.svg);
+  background-size: cover;
+  position: absolute;
+  top: 90%;
+  right: 5%;
+}
+.about .about_inner .about_right .myProfile .profileDesc .title {
+  display: none;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2062af;
+  font-size: 1.25rem;
+  font-family: "Inika";
+  text-align: center;
+}
+.about .about_inner .about_right .myProfile .profileDesc .detailDesc {
+  display: none;
+  padding-top: 1rem;
+  line-height: 1.5;
+}
+.about .about_inner .about_right .myProfile .profileDesc .detailDesc a {
+  font-size: 0.875rem;
+  color: #a2c1d9;
+}
+.about .about_inner .about_right .myProfile .profileDesc .detailDesc a:hover {
+  text-decoration: underline;
+  color: #fff598;
+}
+.about .about_inner .about_right .myProfile::before {
+  content: "";
+  width: 100px;
+  height: 150px;
+  border-bottom: 5px solid #030089;
+  border-left: 5px solid #030089;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.about .about_inner .about_right .myProfile::after {
+  content: "";
+  width: 100px;
+  height: 150px;
+  border-top: 5px solid #030089;
+  border-right: 5px solid #030089;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.about .about_inner .about_right .contactAnimation {
+  color: #030089;
+  position: relative;
+  margin-top: 3rem;
+  margin-left: -3rem;
+}
+.about .about_inner .about_right .contactAnimation.flyAni {
+  animation: fly 5s linear;
+}
+@keyframes fly {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(20px, 30px);
+  }
+  50% {
+    transform: translate(-100px, -20px);
+  }
+  75% {
+    transform: translate(70px, -40px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.about .about_inner .about_right .contactAnimation .flyLetter {
+  width: 130px;
+  cursor: grabbing;
+}
+.about .about_inner .about_right .contactAnimation .catch {
+  width: fit-content;
+  font-size: 0.875rem;
+  font-family: "Inika";
+  rotate: -15deg;
+  position: absolute;
+  top: 2.2rem;
+  left: 1.6rem;
+}
+.about .about_inner .about_right .contactAnimation .letter_bubble {
+  width: 237px;
+  height: 78px;
+  background-image: url(../img/sketch_bubble.png);
+  background-size: cover;
+  position: absolute;
+  top: 3.2rem;
+  left: 5rem;
+}
+.about .about_inner .about_right .contactAnimation .letter_bubble h5 {
+  padding-top: 2.3rem;
+  padding-left: 4.6rem;
+  font-size: 1.25rem;
+  font-family: "Inika";
+  letter-spacing: -0.05rem;
+  rotate: -4deg;
+}
+.about .about_inner .about_right .contactAnimation .contacts {
+  display: none;
+  width: 395px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 0.5rem;
+  background: #b9dbfa;
+  box-shadow: inset 0 0 10px rgba(0, 9, 91, 0.1450980392), 0 0 4px rgba(0, 18, 114, 0.1450980392);
+  text-align: center;
+  position: relative;
+}
+.about .about_inner .about_right .contactAnimation .contacts h6 {
+  font-size: 0.875rem;
+  color: #393939;
+}
+.about .about_inner .about_right .contactAnimation .contacts h6 span {
+  font-weight: 600;
+}
+.about .about_inner .about_right .contactAnimation .contacts button {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 20px;
+  border: none;
+  background: #030089;
+  position: absolute;
+  top: -0.3rem;
+  right: -0.3rem;
+}
+.about .aboutAnimation {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -4rem;
+  overflow-x: hidden;
+  z-index: 15;
+}
+.about .aboutAnimation .cover {
+  width: 100vw;
+  height: 80px;
+  overflow-x: hidden;
+}
+.about .aboutAnimation .cover .textAnimation {
+  width: 100%;
+  padding-top: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.about .aboutAnimation .cover .textAnimation .slideImg {
+  width: 230px;
+}
+.about .aboutAnimation .cover .textAnimation.ani01 {
+  animation: slideLeft 15s linear infinite;
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2000px);
+  }
+}
+.about .aboutAnimation .cover .textAnimation.ani02 {
+  animation: slideRight 15s linear infinite;
+  transform: translateX(-2000px);
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-2000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.about .aboutAnimation .cover:nth-child(1) {
+  margin-top: 40px;
+  background: url(../img/aboutAnimationBG01.jpg) no-repeat;
+  background-size: cover;
+  transform: rotate(2deg) translateX(-10px);
+}
+.about .aboutAnimation .cover:nth-child(2) {
+  margin-top: -60px;
+  margin-bottom: 40px;
+  background: url(../img/aboutAnimationBG02.jpg) no-repeat;
+  background-size: cover;
+  transform: rotate(-2deg) translateX(-10px);
+}

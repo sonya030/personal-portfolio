@@ -1,0 +1,279 @@
+@import "reset", "font", "variable";
+
+.skill {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png),
+    radial-gradient(
+      farthest-corner at 250px 30px,
+      #d6e6ef 0%,
+      #badbfa 60%,
+      #bfd3f2 100%
+    );
+  background-blend-mode: color-burn;
+  background-size: cover;
+  .skill_inner {
+    height: inherit;
+    overflow: hidden;
+    .skillBox {
+      width: 100%;
+      height: 865px;
+      margin-top: 13.75rem;
+      border-radius: 5rem;
+      background: $main-blue;
+      position: relative;
+      .skillTab {
+        height: 145px;
+        padding-left: 2.45rem;
+        display: flex;
+        align-items: end;
+        .tabTitle {
+          width: 330px;
+          height: 100px;
+          background: $gray;
+          border-radius: 3.125rem 3.125rem 0 0;
+          border: none;
+          &.active {
+            background: $white;
+            h5 {
+              color: $main-blue;
+            }
+            h4 {
+              color: $main-blue;
+            }
+          }
+          h5 {
+            color: $dark-gray;
+            font-family: $title-font;
+            font-size: $h5;
+          }
+          h4 {
+            margin-top: 0.5rem;
+            color: $dark-gray;
+            font-family: $title-font;
+            font-size: $h4;
+          }
+        }
+      }
+      .skillCon {
+        height: 720px;
+        background: $white;
+        .front {
+          display: flex;
+          align-items: center;
+          .iconWrap {
+            width: 50%;
+            margin: 6rem auto;
+            padding: 0 2.5rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-row-gap: 4rem;
+            border-right: 2px solid $light-gray;
+            .tabBtn {
+              cursor: pointer;
+              svg {
+                height: 80px;
+              }
+              &:hover,
+              &.active {
+                .htmlSVG {
+                  path {
+                    fill: $html;
+                  }
+                }
+                .cssSVG {
+                  path {
+                    fill: $css;
+                  }
+                }
+                .jsSVG {
+                  path {
+                    fill: $js;
+                  }
+                }
+                .scssSVG {
+                  path {
+                    fill: $scss;
+                  }
+                }
+                .reactSVG {
+                  path {
+                    fill: $react;
+                  }
+                }
+                .bootStrapSVG {
+                  path {
+                    fill: $bootstrap;
+                  }
+                }
+                .gitHubSVG {
+                  path {
+                    fill: $git-hub;
+                  }
+                }
+                .gitSVG {
+                  path {
+                    fill: $git;
+                  }
+                }
+                .netlifySVG {
+                  path {
+                    fill: $netlify;
+                  }
+                }
+              }
+            }
+          }
+          .descArea {
+            width: 50%;
+            .descWrap {
+              display: none;
+              flex-direction: row-reverse;
+              justify-content: center;
+              gap: 1rem;
+              &.active {
+                display: flex;
+              }
+              img {
+                width: 100px;
+                height: 100px;
+              }
+              .skillDesc {
+                width: 458px;
+                height: 310px;
+                margin-top: 2rem;
+                padding-left: 3rem;
+                background: url(../img/skillDesc_bubble.svg) no-repeat;
+                background-size: cover;
+                position: relative;
+                h5 {
+                  width: 300px;
+                  font-size: $h5;
+                  line-height: 1.7;
+                  color: $dark-clouds-blue;
+                  position: absolute;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  span {
+                    font-weight: $bold;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .edit {
+          display: none;
+          flex-direction: column;
+          &.active {
+            display: flex;
+          }
+          .iconWrap {
+            width: 80%;
+            margin: 4rem auto 3rem;
+            padding-bottom: 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            border-bottom: 2px solid $light-gray;
+            .tabBtn {
+              width: fit-content;
+              cursor: pointer;
+              svg {
+                height: 80px;
+              }
+              &:hover,
+              &.active {
+                .aiSVG {
+                  path {
+                    fill: $ai;
+                  }
+                }
+                .psSVG {
+                  path {
+                    fill: $ps;
+                  }
+                }
+                .idSVG {
+                  path {
+                    fill: $id;
+                  }
+                }
+                .figmaSVG {
+                  path {
+                    fill: url(#figma);
+                  }
+                }
+                .slackSVG {
+                  path {
+                    fill: url(#slack);
+                  }
+                }
+              }
+            }
+          }
+          .descArea {
+            width: 80%;
+            margin: auto;
+            .descWrap {
+              display: none;
+              flex-direction: row-reverse;
+              justify-content: center;
+              gap: 1rem;
+              &.active {
+                display: flex;
+              }
+              img {
+                width: 100px;
+                height: 100px;
+              }
+              .skillDesc {
+                width: 880px;
+                height: 280px;
+                padding-left: 4rem;
+                background: url(../img/skillDesc_bubble2.svg) no-repeat;
+                background-size: cover;
+                position: relative;
+                h5 {
+                  width: 700px;
+                  font-size: $h5;
+                  line-height: 1.7;
+                  color: $dark-clouds-blue;
+                  position: absolute;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  span {
+                    font-weight: $bold;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .circleBox {
+        width: 110px;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 40px;
+        right: 70px;
+        .circle {
+          width: 25px;
+          height: 25px;
+          border-radius: 35px;
+          &.red {
+            background: $skill-red;
+          }
+          &.yellow {
+            background: $skill-yellow;
+          }
+          &.green {
+            background: $skill-green;
+          }
+        }
+      }
+    }
+  }
+}

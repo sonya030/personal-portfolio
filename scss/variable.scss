@@ -1,0 +1,97 @@
+/*Font Family*/
+$primary-font: "SCoreDream";
+$secondary-font: "Inika";
+$title-font: "IM Fell Great Primer";
+
+/*Font Size*/
+$h2: 3.125rem;
+$secondary-h2: 2.5rem;
+$h3: 1.875rem;
+$secondary-h3: 2.188rem;
+$h4: 1.563rem;
+$h5: 1.25rem;
+$p: 1rem;
+$h6: 0.875rem;
+
+/*Font Weight*/
+$regular: 400;
+$medium: 500;
+$bold: 600;
+$bold-2: 700;
+
+/* Setting Variables : Object Color */
+
+//primary
+$main-blue: #030089;
+
+//secondary
+$dark-clouds-blue: #2f3d63;
+$grayish-blue: #3f3f55;
+$secondary-blue: #002197;
+$dark-blue: #00025c;
+$pale-blue: #d1ecff;
+
+//point
+$gradient: linear-gradient(#f2bac6, #b7f5e4 0%);
+$gradient-2: linear-gradient(#5a6ccb, #5e95e7 0%);
+$soft-blue: #6b8bdf;
+$moderate-blue: #56a8d6;
+$dark-skyblue: #a2c1d9;
+$light-yellow: #fff598;
+
+//icon
+$html: #ff5722;
+$css: #2062af;
+$js: #f1bf22;
+$scss: #cd6799;
+$react: #61dafb;
+$bootstrap: #563d7c;
+$git-hub: #414751;
+$git: #ea3a17;
+$netlify: #25c7b7;
+$ai: #ff9a00;
+$ps: #31a8ff;
+$id: #ff3366;
+$figma: linear-gradient(
+  145deg,
+  rgba(54, 197, 240, 1) 0%,
+  rgba(46, 182, 125, 1) 33%,
+  rgba(224, 30, 90, 1) 66%,
+  rgba(236, 178, 46, 1) 100%
+);
+$slack: linear-gradient(
+  180deg,
+  rgba(255, 77, 18, 1) 0%,
+  rgba(255, 115, 97, 1) 25%,
+  rgba(182, 89, 255, 1) 50%,
+  rgba(0, 188, 255, 1) 75%,
+  rgba(0, 207, 127, 1) 100%
+);
+
+//icon-btn
+$html-btn-BG: #ff8d69;
+$html-btn-text: #b64927;
+$css-btn-BG: #7089e7;
+$css-btn-text: #2543b8;
+$js-btn-BG: #ffe55b;
+$js-btn-text: #e16c00;
+$react-btn-BG: #2cbee5;
+$react-btn-text: #0085a9;
+$scss-btn-BG: #cd6799;
+$scss-btn-text: #b41563;
+$jquery-btn-BG: #0868ac;
+$jquery-btn-text: #002279;
+$redux-btn-BG: #7649bb;
+$redux-btn-text: #290067;
+
+//skill-btn
+$skill-red: #fe604c;
+$skill-yellow: #f9bf02;
+$skill-green: #14d838;
+
+/* Setting Variables : Text Color */
+$black: #000000;
+$dark-gray: #393939;
+$gray: #c1c1c1;
+$light-gray: #d9d9d9;
+$white: #ffffff;

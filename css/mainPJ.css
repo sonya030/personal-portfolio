@@ -1,0 +1,336 @@
+/* ===========reset=========== */
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.mainPJ {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png), radial-gradient(farthest-corner at 250px 30px, #d6e6ef 0%, #badbfa 60%, #bfd3f2 100%);
+  background-blend-mode: color-burn;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner {
+  height: inherit;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper {
+  height: inherit;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide {
+  height: 610px;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc {
+  width: 390px;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .title_en {
+  font-size: 1.563rem;
+  font-family: "Inika";
+  color: #ffffff;
+  letter-spacing: -0.03rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .title_ko {
+  margin-top: 1rem;
+  font-size: 3.125rem;
+  font-weight: 600;
+  color: #030089;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_text {
+  margin: 2rem 0;
+  line-height: 1.4;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pjBtn_wrap {
+  position: relative;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pjBtn_wrap a {
+  padding: 0.3rem 1rem;
+  background: #d1ecff;
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: 1px solid #000000;
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pjBtn_wrap a:hover {
+  box-shadow: inset 50px 0 0 #56a8d6, inset -50px 0 0 #56a8d6;
+  color: #ffffff;
+  border: 1px solid #00025c;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pjBtn_wrap::after {
+  content: "";
+  width: 37.5px;
+  height: 30px;
+  background: url(../img/mainPJ_click.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  animation: mainClick 3s infinite linear;
+}
+@keyframes mainClick {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary {
+  margin-top: 3rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox img {
+  width: 15px;
+  margin-right: 1rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .summaryTitle {
+  width: 65px;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .summaryDesc,
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox {
+  width: 270px;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .summaryDesc {
+  font-size: 0.875rem;
+  letter-spacing: -0.05rem;
+  line-height: 1.3;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox {
+  display: flex;
+  gap: 0.5rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p {
+  width: fit-content;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_html {
+  background: #ff8d69;
+  color: #b64927;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_css {
+  background: #7089e7;
+  color: #2543b8;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_scss {
+  background: #cd6799;
+  color: #b41563;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_js {
+  background: #ffe55b;
+  color: #e16c00;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_jquery {
+  background: #0868ac;
+  color: #002279;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_react {
+  background: #2cbee5;
+  color: #0085a9;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox .languageBox p.lan_redux {
+  background: #7649bb;
+  color: #290067;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_desc .pj_summary .summaryBox.contribution .summaryDesc {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img {
+  width: 820px;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj01 {
+  background: url(../img/mainPJ_01.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj02 {
+  background: url(../img/mainPJ_02.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj03 {
+  background: url(../img/mainPJ_05.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj04 {
+  background: url(../img/mainPJ_04.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj04 {
+  background: url(../img/mainPJ_04.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj05 {
+  background: url(../img/mainPJ_06.png) no-repeat;
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide .pj_img.pj06 {
+  background: url(https://file3.instiz.net/data/cached_img/upload/2020/05/22/1/36c13317ef40831000f88c96df65611b.gif);
+  background-size: cover;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-wrapper .swiper-slide:nth-child(5) .pj_desc .title_ko {
+  letter-spacing: -0.1rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-pagination {
+  bottom: 5rem;
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: #d1ecff;
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1882352941);
+}
+.mainPJ .mainPJ_inner .mainPJSwiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 35px;
+  height: 15px;
+  border-radius: 1rem;
+  background: #56a8d6;
+}

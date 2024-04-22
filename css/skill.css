@@ -1,0 +1,364 @@
+/* ===========reset=========== */
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.skill {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png), radial-gradient(farthest-corner at 250px 30px, #d6e6ef 0%, #badbfa 60%, #bfd3f2 100%);
+  background-blend-mode: color-burn;
+  background-size: cover;
+}
+.skill .skill_inner {
+  height: inherit;
+  overflow: hidden;
+}
+.skill .skill_inner .skillBox {
+  width: 100%;
+  height: 865px;
+  margin-top: 13.75rem;
+  border-radius: 5rem;
+  background: #030089;
+  position: relative;
+}
+.skill .skill_inner .skillBox .skillTab {
+  height: 145px;
+  padding-left: 2.45rem;
+  display: flex;
+  align-items: end;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle {
+  width: 330px;
+  height: 100px;
+  background: #c1c1c1;
+  border-radius: 3.125rem 3.125rem 0 0;
+  border: none;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle.active {
+  background: #ffffff;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle.active h5 {
+  color: #030089;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle.active h4 {
+  color: #030089;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle h5 {
+  color: #393939;
+  font-family: "IM Fell Great Primer";
+  font-size: 1.25rem;
+}
+.skill .skill_inner .skillBox .skillTab .tabTitle h4 {
+  margin-top: 0.5rem;
+  color: #393939;
+  font-family: "IM Fell Great Primer";
+  font-size: 1.563rem;
+}
+.skill .skill_inner .skillBox .skillCon {
+  height: 720px;
+  background: #ffffff;
+}
+.skill .skill_inner .skillBox .skillCon .front {
+  display: flex;
+  align-items: center;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap {
+  width: 50%;
+  margin: 6rem auto;
+  padding: 0 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 4rem;
+  border-right: 2px solid #d9d9d9;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn {
+  cursor: pointer;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn svg {
+  height: 80px;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .htmlSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .htmlSVG path {
+  fill: #ff5722;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .cssSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .cssSVG path {
+  fill: #2062af;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .jsSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .jsSVG path {
+  fill: #f1bf22;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .scssSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .scssSVG path {
+  fill: #cd6799;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .reactSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .reactSVG path {
+  fill: #61dafb;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .bootStrapSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .bootStrapSVG path {
+  fill: #563d7c;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .gitHubSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .gitHubSVG path {
+  fill: #414751;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .gitSVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .gitSVG path {
+  fill: #ea3a17;
+}
+.skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn:hover .netlifySVG path, .skill .skill_inner .skillBox .skillCon .front .iconWrap .tabBtn.active .netlifySVG path {
+  fill: #25c7b7;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea {
+  width: 50%;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap {
+  display: none;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 1rem;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap.active {
+  display: flex;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap img {
+  width: 100px;
+  height: 100px;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap .skillDesc {
+  width: 458px;
+  height: 310px;
+  margin-top: 2rem;
+  padding-left: 3rem;
+  background: url(../img/skillDesc_bubble.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap .skillDesc h5 {
+  width: 300px;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #2f3d63;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.skill .skill_inner .skillBox .skillCon .front .descArea .descWrap .skillDesc h5 span {
+  font-weight: 600;
+}
+.skill .skill_inner .skillBox .skillCon .edit {
+  display: none;
+  flex-direction: column;
+}
+.skill .skill_inner .skillBox .skillCon .edit.active {
+  display: flex;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap {
+  width: 80%;
+  margin: 4rem auto 3rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  border-bottom: 2px solid #d9d9d9;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn {
+  width: fit-content;
+  cursor: pointer;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn svg {
+  height: 80px;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .aiSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .aiSVG path {
+  fill: #ff9a00;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .psSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .psSVG path {
+  fill: #31a8ff;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .idSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .idSVG path {
+  fill: #ff3366;
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .figmaSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .figmaSVG path {
+  fill: url(#figma);
+}
+.skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn:hover .slackSVG path, .skill .skill_inner .skillBox .skillCon .edit .iconWrap .tabBtn.active .slackSVG path {
+  fill: url(#slack);
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea {
+  width: 80%;
+  margin: auto;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap {
+  display: none;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 1rem;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap.active {
+  display: flex;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap img {
+  width: 100px;
+  height: 100px;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap .skillDesc {
+  width: 880px;
+  height: 280px;
+  padding-left: 4rem;
+  background: url(../img/skillDesc_bubble2.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap .skillDesc h5 {
+  width: 700px;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #2f3d63;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.skill .skill_inner .skillBox .skillCon .edit .descArea .descWrap .skillDesc h5 span {
+  font-weight: 600;
+}
+.skill .skill_inner .skillBox .circleBox {
+  width: 110px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 40px;
+  right: 70px;
+}
+.skill .skill_inner .skillBox .circleBox .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 35px;
+}
+.skill .skill_inner .skillBox .circleBox .circle.red {
+  background: #fe604c;
+}
+.skill .skill_inner .skillBox .circleBox .circle.yellow {
+  background: #f9bf02;
+}
+.skill .skill_inner .skillBox .circleBox .circle.green {
+  background: #14d838;
+}

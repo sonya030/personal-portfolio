@@ -1,0 +1,279 @@
+/* ===========reset=========== */
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/introAnimationBG.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.contact .contact_inner {
+  height: inherit;
+  color: #ffffff;
+}
+.contact .contact_inner .contactWrap {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+.contact .contact_inner .contactWrap .leftText {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  z-index: 2;
+}
+.contact .contact_inner .contactWrap .leftText .thx_en {
+  font-family: "Inika";
+  font-size: 2.188rem;
+}
+.contact .contact_inner .contactWrap .leftText .thx_ko {
+  margin-top: 1.5rem;
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.contact .contact_inner .contactWrap .rightText {
+  width: 295px;
+  position: absolute;
+  bottom: 150px;
+  right: 0;
+}
+.contact .contact_inner .contactWrap .rightText .comment {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea {
+  margin-top: 2.5rem;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .contactTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .contactTitle h3 {
+  font-size: 1.875rem;
+  font-weight: 500;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .contactTitle .line {
+  width: 200px;
+  height: 2px;
+  background: #ffffff;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .contactTitle img {
+  width: 75px;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container {
+  width: 280px;
+  height: 70px;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card {
+  padding: 0.5rem;
+  position: absolute;
+  inset: 0;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card .mailArea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card .mailArea img {
+  width: 30px;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card .phoneNumberArea {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container .scratch_card .phoneNumberArea img {
+  width: 30px;
+}
+.contact .contact_inner .contactWrap .rightText .contactArea .scratch_container canvas {
+  position: absolute;
+  cursor: grabbing;
+}
+.contact .waveLengthWrap {
+  width: 47%;
+  position: absolute;
+  top: -27vh;
+  left: -8%;
+  filter: invert(100%);
+  opacity: 0.6;
+}
+.contact .waveLengthWrap svg path {
+  opacity: 0;
+}
+@keyframes path2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(1) {
+  animation: path2 2s 5.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(2) {
+  animation: path2 2s 5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(3) {
+  animation: path2 2s 4.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(4) {
+  animation: path2 2s 4s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(5) {
+  animation: path2 2s 3.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(6) {
+  animation: path2 2s 3s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(7) {
+  animation: path2 2s 2.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(8) {
+  animation: path2 2s 2s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(9) {
+  animation: path2 2s 1.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(10) {
+  animation: path2 2s 1s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(11) {
+  animation: path2 2s 0.5s linear forwards;
+}
+.contact .waveLengthWrap svg path.waveLengthAct:nth-child(12) {
+  animation: path2 2s linear forwards;
+}

@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* ===========reset=========== */
+@import url("https://webfontworld.github.io/SCoreDream/SCoreDream.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/*fontAwesome SCoreDream*/
+/*google WEB FONT Inika*/
+/*google WEB FONT IM Fell Great Primer*/
+/*Font Family*/
+/*Font Size*/
+/*Font Weight*/
+/* Setting Variables : Object Color */
+/* Setting Variables : Text Color */
+.header {
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header .headerWrap {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerWrap .logo {
+  width: 95px;
+}
+.header .headerWrap .nav {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerWrap .nav .navContents {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.header .headerWrap .nav .navContents li {
+  width: fit-content;
+}
+.header .headerWrap .nav .navContents li a {
+  font-family: "Inika";
+  font-size: 1.875rem;
+  display: block;
+  color: #030089;
+  transition: 0.2s;
+}
+.header .headerWrap .nav .navContents li a:hover {
+  color: #7649bb;
+}
+.header .headerWrap .nav .navContents li a.active {
+  position: relative;
+}
+.header .headerWrap .nav .navContents li a.active::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background: url(../img/navLight.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -0.5rem;
+  right: -1rem;
+}
+.header .headerWrap .nav .navContents li a.active::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: url(../img/navLine.svg) no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -0.8rem;
+  left: 0;
+}
+.header .headerWrap .nav .shortCuts {
+  width: 18%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerWrap .nav .shortCuts .goToGitHub {
+  width: fit-content;
+  height: inherit;
+  position: relative;
+}
+.header .headerWrap .nav .shortCuts .goToGitHub:hover {
+  transition: 0.2s;
+}
+.header .headerWrap .nav .shortCuts .goToGitHub:hover::after {
+  content: "github 바로가기🎈";
+  width: 100px;
+  padding: 0.3rem;
+  font-size: 0.7rem;
+  text-align: center;
+  color: #000000;
+  background: #d1ecff;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 5px #56a8d6;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header .headerWrap .nav .shortCuts .goToGitHub svg {
+  height: inherit;
+  transition: 0.2s;
+}
+.header .headerWrap .nav .shortCuts .goToGitHub svg:hover {
+  transform: scale(1.05);
+}
+.header .headerWrap .nav .shortCuts .copyBtn {
+  width: fit-content;
+  height: inherit;
+  padding: 0;
+  border: none;
+  background: none;
+  position: relative;
+}
+.header .headerWrap .nav .shortCuts .copyBtn:hover {
+  transition: 0.2s;
+}
+.header .headerWrap .nav .shortCuts .copyBtn:hover::after {
+  content: "메일주소 복사📥";
+  width: 95px;
+  padding: 0.3rem;
+  font-size: 0.7rem;
+  text-align: center;
+  background: #d1ecff;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 5px #56a8d6;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header .headerWrap .nav .shortCuts .copyBtn svg {
+  height: inherit;
+  transition: 0.2s;
+}
+.header .headerWrap .nav .shortCuts .copyBtn svg:hover {
+  transform: scale(1.05);
+}
+.header .headerWrap .nav .shortCuts .adress {
+  display: none;
+}
+.header.active .headerWrap .logo svg path {
+  fill: #56a8d6;
+}
+.header.active .headerWrap .nav .navContents li a {
+  color: #56a8d6;
+}
+.header.active .headerWrap .nav .shortCuts .goToGitHub svg path {
+  fill: #56a8d6;
+}
+.header.active .headerWrap .nav .shortCuts .copyBtn {
+  width: fit-content;
+  height: inherit;
+  padding: 0;
+  border: none;
+  background: none;
+  position: relative;
+}
+.header.active .headerWrap .nav .shortCuts .copyBtn svg path {
+  fill: #56a8d6;
+}

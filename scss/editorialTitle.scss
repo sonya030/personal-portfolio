@@ -1,0 +1,74 @@
+@import "reset", "font", "variable";
+
+.editorial_title {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/section_titleBG.png) center / cover no-repeat;
+  .editorial_title_inner {
+    height: inherit;
+    position: relative;
+    .editorial_title_contentsWrap {
+      width: fit-content;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      .number_wrap {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        .number {
+          width: 110px;
+          margin: auto;
+          animation: numAni 2s infinite linear;
+          @keyframes numAni {
+            0% {
+              transform: translateY(0);
+            }
+            25% {
+              transform: translateY(5px);
+            }
+            50% {
+              transform: translateY(0);
+            }
+            75% {
+              transform: translateY(-5px);
+            }
+            100% {
+              transform: translateY(0);
+            }
+          }
+        }
+        .title_wave {
+          width: 150px;
+          margin-top: 2rem;
+          margin-bottom: 4.5rem;
+        }
+      }
+      .editorial_title_text {
+        width: fit-content;
+        .title_animation {
+          animation: titleFill2 2s linear forwards;
+          @keyframes titleFill2 {
+            0% {
+              r: 100px;
+            }
+            25% {
+              r: 250px;
+            }
+            50% {
+              r: 400px;
+            }
+            75% {
+              r: 550px;
+            }
+            100% {
+              r: 800px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

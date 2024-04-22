@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copy Email Address</title>
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      left: 50%;
+      top: 150px;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip.active .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="tooltip">
+    <button id="copyMail">
+      EMAIL COPY
+    </button>
+    <p id="mailAddress" style="display: none;">sondabin5693@gmail.com</p>
+    <span class="tooltiptext" id="tooltip">이메일 복사완료</span>
+  </div>
+
+  <script>
+    // "copyMail" 버튼 클릭 시 실행되는 함수
+    document.getElementById("copyMail").addEventListener("click", function () {
+      // 이메일 주소를 가져옴
+      let mailAddress = document.getElementById("mailAddress").innerText;
+
+      // 클립보드에 텍스트 복사 시도
+      navigator.clipboard.writeText(mailAddress)
+        .then(() => {
+          // 복사가 성공하면 툴팁을 활성화하여 보이도록 함
+          document.getElementById("tooltip").parentNode.classList.add('active');
+
+          // 1.5초 후에 툴팁을 비활성화하여 숨김
+          setTimeout(function () {
+            document.getElementById("tooltip").parentNode.classList.remove('active');
+          }, 1500); //1.5초 뒤에 툴팁 숨김
+        })
+        .catch(err => {
+          // 복사가 실패한 경우 콘솔에 오류 메시지를 출력
+          console.error('복사 실패:', err);
+        });
+    });
+
+    /*
+    1. "copyMail" 버튼을 클릭할 때 실행되는 함수
+    2. 클릭 이벤트가 발생하면 이메일 주소를 가져옴
+    3. 가져온 이메일 주소를 클립보드에 복사하려고 시도
+    4. 복사가 성공하면 툴팁을 활성화하여 표시
+    5. 1.5초 후에 툴팁을 다시 비활성화하여 숨김
+    6. 복사가 실패한 경우 콘솔에 오류 메시지를 출력
+    */
+  </script>
+
+</body>
+
+</html>

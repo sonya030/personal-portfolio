@@ -1,0 +1,227 @@
+@import "reset", "font", "variable";
+.mainPJ {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/sizzlingBG.png),
+    radial-gradient(
+      farthest-corner at 250px 30px,
+      #d6e6ef 0%,
+      #badbfa 60%,
+      #bfd3f2 100%
+    );
+  background-blend-mode: color-burn;
+  background-size: cover;
+  .mainPJ_inner {
+    height: inherit;
+    .mainPJSwiper {
+      height: inherit;
+      .swiper-wrapper {
+        .swiper-slide {
+          height: 610px;
+          margin-top: 7rem;
+          display: flex;
+          justify-content: space-between;
+          cursor: pointer;
+          .pj_desc {
+            width: 390px;
+            .title_en {
+              font-size: $h4;
+              font-family: $secondary-font;
+              color: $white;
+              letter-spacing: -0.03rem;
+            }
+            .title_ko {
+              margin-top: 1rem;
+              font-size: $h2;
+              font-weight: $bold;
+              color: $main-blue;
+            }
+            .pj_text {
+              margin: 2rem 0;
+              line-height: 1.4;
+            }
+            .pjBtn_wrap {
+              position: relative;
+              a {
+                padding: 0.3rem 1rem;
+                background: $pale-blue;
+                color: $black;
+                font-size: $h5;
+                font-weight: $bold;
+                border: 1px solid $black;
+                border-radius: 0.3rem;
+                transition: 0.3s;
+                &:hover {
+                  box-shadow: inset 50px 0 0 $moderate-blue,
+                    inset -50px 0 0 $moderate-blue;
+                  color: $white;
+                  border: 1px solid $dark-blue;
+                }
+              }
+              &::after {
+                content: "";
+                width: 37.5px;
+                height: 30px;
+                background: url(../img/mainPJ_click.svg) no-repeat;
+                background-size: cover;
+                position: absolute;
+                top: 25px;
+                left: 80px;
+                animation: mainClick 3s infinite linear;
+                @keyframes mainClick {
+                  0% {
+                    opacity: 1;
+                  }
+                  25% {
+                    opacity: 0;
+                  }
+                  50% {
+                    opacity: 1;
+                  }
+                  75% {
+                    opacity: 0;
+                  }
+                  80% {
+                    opacity: 1;
+                  }
+                  90% {
+                    opacity: 0;
+                  }
+                  100% {
+                    opacity: 1;
+                  }
+                }
+              }
+            }
+            .pj_summary {
+              margin-top: 3rem;
+              .summaryBox {
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+                img {
+                  width: 15px;
+                  margin-right: 1rem;
+                }
+                .summaryTitle {
+                  width: 65px;
+                  margin-right: 1.5rem;
+                  font-size: $p;
+                  font-weight: $medium;
+                }
+                .summaryDesc,
+                .languageBox {
+                  width: 270px;
+                }
+                .summaryDesc {
+                  font-size: $h6;
+                  letter-spacing: -0.05rem;
+                  line-height: 1.3;
+                }
+                .languageBox {
+                  display: flex;
+                  gap: 0.5rem;
+                  p {
+                    width: fit-content;
+                    padding: 0.3rem 0.5rem;
+                    border-radius: 0.3rem;
+                    &.lan_html {
+                      background: $html-btn-BG;
+                      color: $html-btn-text;
+                    }
+                    &.lan_css {
+                      background: $css-btn-BG;
+                      color: $css-btn-text;
+                    }
+                    &.lan_scss {
+                      background: $scss-btn-BG;
+                      color: $scss-btn-text;
+                    }
+                    &.lan_js {
+                      background: $js-btn-BG;
+                      color: $js-btn-text;
+                    }
+                    &.lan_jquery {
+                      background: $jquery-btn-BG;
+                      color: $jquery-btn-text;
+                    }
+                    &.lan_react {
+                      background: $react-btn-BG;
+                      color: $react-btn-text;
+                    }
+                    &.lan_redux {
+                      background: $redux-btn-BG;
+                      color: $redux-btn-text;
+                    }
+                  }
+                }
+                &.contribution {
+                  .summaryDesc {
+                    font-size: $p;
+                    font-weight: $bold;
+                  }
+                }
+              }
+            }
+          }
+          .pj_img {
+            width: 820px;
+            &.pj {
+              &01 {
+                background: url(../img/mainPJ_01.png) no-repeat;
+                background-size: cover;
+              }
+              &02 {
+                background: url(../img/mainPJ_02.png) no-repeat;
+                background-size: cover;
+              }
+              &03 {
+                background: url(../img/mainPJ_05.png) no-repeat;
+                background-size: cover;
+              }
+              &04 {
+                background: url(../img/mainPJ_04.png) no-repeat;
+                background-size: cover;
+              }
+              &04 {
+                background: url(../img/mainPJ_04.png) no-repeat;
+                background-size: cover;
+              }
+              &05 {
+                background: url(../img/mainPJ_06.png) no-repeat;
+                background-size: cover;
+              }
+              &06 {
+                background: url(https://file3.instiz.net/data/cached_img/upload/2020/05/22/1/36c13317ef40831000f88c96df65611b.gif);
+                background-size: cover;
+              }
+            }
+          }
+          &:nth-child(5) {
+            .pj_desc {
+              .title_ko {
+                letter-spacing: -0.1rem;
+              }
+            }
+          }
+        }
+      }
+      .swiper-pagination {
+        bottom: 5rem;
+        .swiper-pagination-bullet {
+          width: 15px;
+          height: 15px;
+          background: $pale-blue;
+          opacity: 1;
+          box-shadow: 0 2px 4px #00000030;
+          &.swiper-pagination-bullet-active {
+            width: 35px;
+            height: 15px;
+            border-radius: 1rem;
+            background: $moderate-blue;
+          }
+        }
+      }
+    }
+  }
+}
